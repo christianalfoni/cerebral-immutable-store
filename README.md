@@ -1,6 +1,15 @@
 # cerebral-immutable-store
 Immutable Store Model layer for Cerebral
 
+## More info on Cerebral and video introduction
+Cerebral main repo is located [here](https://github.com/christianalfoni/cerebral) and a video demonstration can be found [here](https://www.youtube.com/watch?v=xCIv4-Q2dtA).
+
+## Debugger
+You can download the Chrome debugger [here](https://chrome.google.com/webstore/detail/cerebral-debugger/ddefoknoniaeoikpgneklcbjlipfedbb?hl=no).
+
+## Install
+`npm install cerebral-immutable-store`
+
 ### Instantiate a Cerebral controller
 *controller.js*
 ```js
