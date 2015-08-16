@@ -21,7 +21,7 @@
     "url": "https://github.com/christianalfoni/cerebral-immutable-store/issues"
   },
   "homepage": "https://github.com/christianalfoni/cerebral-immutable-store#readme",
-  "dependencies": {
+  "peerDependencies": {
     "immutable-store": "^0.5.2"
   }
 }
