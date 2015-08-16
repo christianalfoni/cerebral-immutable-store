@@ -20,12 +20,15 @@ module.exports = function (state) {
     });
 
     controller.on('seek', function (seek, isPlaying, recording) {
-      state = state.import(currentRecording.initialState);
+      state = state.import(recording.initialState);
     });
 
     return {
         get: function (path) {
           return getValue(path, state);
+        },
+        getRecordingState: function () {
+          return state.export();
         },
         mutators: {
           set: function (path, value) {
