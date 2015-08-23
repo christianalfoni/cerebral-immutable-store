@@ -27,6 +27,9 @@ module.exports = function (state) {
         get: function (path) {
           return getValue(path, state);
         },
+        toJSON: function () {
+          return state.toJS();
+        },
         getRecordingState: function () {
           return state.export();
         },

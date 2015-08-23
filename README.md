@@ -24,15 +24,13 @@ const model = Model({
   error: null
 });
 
-// Any default input you want each action to receive
-const defaultInput = {
-  utils: {
-    request: request
-  }
+// Any services you want each action to receive
+const services = {
+  request: request
 };
 
 // Instantiate the controller
-export default Controller(model, defaultInput);
+export default Controller(model, services);
 ```
 With immutable-store you can also map state using functions, read more about that [here](https://github.com/christianalfoni/immutable-store#mapping-state).
 
